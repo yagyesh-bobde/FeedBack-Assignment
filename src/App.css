@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* common */
+.place-center, .place-opp { 
+    display: flex;
+        align-items: center;
+}
+.place-opp {
+    justify-content: space-between;
+}
+.place-center{
+    justify-content: center;
+}
+/* DASHBOARD */
+.top {
+    padding: 0 1%;
+}
+h2 {
+    display: inline;
+}
+btn {
+    max-width: 25% !important;
+}
+.new {
+    margin: 5% auto;
+}
+.modal-content{
+    padding: 5%;
+}
